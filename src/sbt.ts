@@ -8,13 +8,6 @@ const completionSpec: Fig.Spec = {
       name: "clean",
       description:
         "Deletes files produced by the build, such as generated sources, compiled classes, and task caches",
-      subcommands: [
-        {
-          name: "my_nested_subcommand",
-          description:
-            "Nested subcommand, example usage: 'abc my_subcommand my_nested_subcommand'",
-        },
-      ],
     },
   ],
   options: [
